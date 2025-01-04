@@ -7,8 +7,7 @@
 ## Category
 **Salesforce**
 
-## Skills Required
-**Salesforce Developer**
+
 
 ---
 
