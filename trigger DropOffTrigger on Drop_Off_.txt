@@ -1,0 +1,6 @@
+trigger DropOffTrigger on Drop_Off_point__c (before insert) {
+    for(Drop_Off_point__c Drop : Trigger.new) {
+        // Assign the formula field's value to the newly created Number field
+        Drop.Distance__c = Drop.distance_calculation__c;  // This is the formula field you're referencing
+    }
+}
